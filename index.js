@@ -73,14 +73,20 @@ app.get('/api/location/barcelona', (req, res) => {
         city: "Barcelona",
         rating: 4,
         country: "Spain",
-        description: "Barcelona is a vibrant city known for its art, architecture, and culture. It offers a mix of historical landmarks and modern attractions, making it a popular destination for travelers.",
-        image1: `${baseUrl}/images/barcelona.jpg`,
-        image2: `${baseUrl}/images/barcelona2.jpg`,
-        image3: `${baseUrl}/images/barcelona3.jpg`,
-        gallery1: `${baseUrl}/images/barcelona4.jpg`,
-        gallery2: `${baseUrl}/images/barcelona5.jpg`,
-        gallery3: `${baseUrl}/images/barcelona6.jpg`,
-        gallery4: `${baseUrl}/images/barcelona7.jpg`,
+        description: "Barcelona is a dynamic coastal city in northeastern Spain, renowned for its unique blend of history, art, and modern culture. From the iconic architecture of Antoni Gaudí, such as the Sagrada Família and Park Güell, to the lively atmosphere of La Rambla, the city offers something for every visitor. Its Mediterranean beaches, vibrant food scene, and rich Catalan heritage make it a destination that effortlessly combines relaxation with exploration. Whether you're wandering through the historic Gothic Quarter or enjoying panoramic views from Montjuïc, Barcelona delivers an unforgettable experience full of character and charm.",
+
+        images: [
+            `${baseUrl}/images/barcelona.jpg`,
+            `${baseUrl}/images/barcelona2.jpg`,
+            `${baseUrl}/images/barcelona3.jpg`
+        ],
+
+        gallery: [
+            `${baseUrl}/images/barcelona4.jpg`,
+            `${baseUrl}/images/barcelona5.jpg`,
+            `${baseUrl}/images/barcelona6.jpg`,
+            `${baseUrl}/images/barcelona7.jpg`
+        ]
     });
 });
 
