@@ -75,17 +75,15 @@ app.get('/api/location/barcelona', (req, res) => {
         country: "Spain",
         description: "Barcelona is a dynamic coastal city in northeastern Spain, renowned for its unique blend of history, art, and modern culture. From the iconic architecture of Antoni Gaudí, such as the Sagrada Família and Park Güell, to the lively atmosphere of La Rambla, the city offers something for every visitor. Its Mediterranean beaches, vibrant food scene, and rich Catalan heritage make it a destination that effortlessly combines relaxation with exploration. Whether you're wandering through the historic Gothic Quarter or enjoying panoramic views from Montjuïc, Barcelona delivers an unforgettable experience full of character and charm.",
 
-        images: [
-            `${baseUrl}/images/barcelona.jpg`,
-            `${baseUrl}/images/barcelona2.jpg`,
-            `${baseUrl}/images/barcelona3.jpg`
-        ],
+        images: `${baseUrl}/images/barcelona3.png`,
 
         gallery: [
-            `${baseUrl}/images/barcelona4.jpg`,
-            `${baseUrl}/images/barcelona5.jpg`,
-            `${baseUrl}/images/barcelona6.jpg`,
-            `${baseUrl}/images/barcelona7.jpg`
+            `${baseUrl}/images/barcelona.jpg`,
+            `${baseUrl}/images/barcelona2.png`,
+            `${baseUrl}/images/barcelona4.png`,
+            `${baseUrl}/images/barcelona5.png`,
+            `${baseUrl}/images/barcelona6.png`,
+            `${baseUrl}/images/barcelona7.png`
         ]
     });
 });
